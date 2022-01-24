@@ -1,0 +1,15 @@
+In it I explore the dataset, clean it and transform it. I then add more information to each property sample using census data from https://datashine.org.uk/.
+I then train XGBoost to predict house price (with trend and seasonality removed) given census data and property type. 
+
+
+Census data added:
+
+sgC2: social grade C percentage
+high depri: High deprivation percentage
+low depri: Low deprivation percentage
+ownership: home ownership percentage
+bad_health: bad health percentage
+second_add_uk: people with second address in the UK percentage
+second_add_out: people with second address outside of the UK
+train_to_work: percent of people taking train to work
+
